@@ -7,15 +7,14 @@ grenbo="\e[92;1m"
 NC='\e[0m'
 #install
 apt update && apt upgrade
-apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/king-vpn/v3/main/bot/bot.zip
+wget https://raw.githubusercontent.com/msi8888/butak/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/king-vpn/v3/main/bot/kyt.zip
+wget https://raw.githubusercontent.com/msi8888/butak/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
